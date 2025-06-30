@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wireless Earbuds Comparison</title>
+  <link rel="stylesheet" href="card.css">
+  
+</head>
+<body>
+   <!-- Header -->
+    <header>
+        <h2><a href=""><img src="./images/logo_headphones.png" alt="Headphones logo" width="160px"></a></h2>
+        <input type="checkbox" id="menu-btn" class="menu-btn">
+        <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+        <nav>
+            <li><a href="/card.html">What we do</a></li>
+            <li><a href="/100-index.html">Our results</a></li>
+            <li><a href="/101-index.html">Contact us</a></li>
+        </nav>
+    </header>
+
+      <!-- Hero -->
+       <section class="hero">
+            <div class="background-image"></div>
+            <h1 class="hero-title" style="color: aliceblue;">Welcome to AirBudge</h1>
+            <h2 class="hero-subtitle">Experience Premium Sound Without Breaking the Bank</h2>
+            <a href="" class="button" style="background-color:  #4CAF50">Shop Now</a>
+            <p>Discover high-quality earbuds designed for comfort, style, and performance. Whether you're working out, commuting, or just relaxing — AirBudge gives you the sound you deserve, at a price you'll love.</p>
+        </section>
+
+        <section style="background-color: aliceblue;">
+          <h1>Compare Wireless Earbuds</h1>
+  <p class="intro">Explore and compare top wireless earbuds based on features and ratings to find your perfect fit.</p>
+
+  <div class="container">
+    <div class="card best-product">
+      <span class="badge">Top Pick</span>
+      <img src="/images/download.jpeg" alt="AirBuds Pro X" />
+      <h2>AirBuds Pro X</h2>
+      <p><strong>Price:</strong> $129</p>
+      <p><strong>Battery Life:</strong> 24 hours</p>
+      <p><strong>Water Resistance:</strong> IPX7</p>
+      <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
+      <button class="add-btn" onclick="addToCart('AirBuds Pro X')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="/images/download (1).jpeg" alt="SonicPods Lite" />
+      <h2>SonicPods Lite</h2>
+      <p><strong>Price:</strong> $89</p>
+      <p><strong>Battery Life:</strong> 18 hours</p>
+      <p><strong>Water Resistance:</strong> IPX5</p>
+      <p><strong>Rating:</strong> ⭐⭐⭐⭐☆</p>
+      <button class="add-btn" onclick="addToCart('SonicPods Lite')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/download (2).jpeg" alt="EchoBuds 2" />
+      <h2>EchoBuds 2</h2>
+      <p><strong>Price:</strong> $99</p>
+      <p><strong>Battery Life:</strong> 20 hours</p>
+      <p><strong>Water Resistance:</strong> IPX4</p>
+      <p><strong>Rating:</strong> ⭐⭐⭐☆☆</p>
+      <button class="add-btn" onclick="addToCart('EchoBuds 2')">Add to Cart</button>
+    </div>
+  </div>
+        </section>
+
+  <script>
+    function addToCart(productName) {
+      alert(productName + ' has been added to your cart!');
+    }
+  </script>
+
+</body>
+</html>
